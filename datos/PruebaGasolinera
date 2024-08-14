@@ -1,0 +1,13 @@
+tipo:Crudo:5000:4982.0
+tipo:Gas:8000:198.75
+tipo:Diesel:12000:18.333333333333332
+tipo:Agua:10:0.0
+surtidor:Oscarin:Crudo:0.0:Gas:1.25:Diesel:0.0:Agua:0.0
+surtidor:Alberto:Crudo:0.0:Gas:0.0:Diesel:0.0:Agua:100.0
+surtidor:Gonza:Crudo:10.0:Gas:0.0:Diesel:1.6666666666666667:Agua:0.0
+surtidor:Olga:Crudo:8.0:Gas:0.0:Diesel:0.0:Agua:0.0
+empleado:Gonza:70000
+empleado:Olga:40000
+empleado:Alberto:1000
+empleado:Benito:0
+empleado:Oscarin:10000
