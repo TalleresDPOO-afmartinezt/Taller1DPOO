@@ -54,8 +54,14 @@ public class Surtidor
      */
     public double getGalonesVendidos( String nombreTipoGasolina )
     {
-        return galonesVendidos.get( nombreTipoGasolina );
-    }
+    	
+    	if ( galonesVendidos.get( nombreTipoGasolina ) <0)
+    	{
+    		return galonesVendidos.get( nombreTipoGasolina )*-1;
+    	}
+    	
+   		return galonesVendidos.get( nombreTipoGasolina);
+   	}
 
     /**
      * Cambia la cantidad de galones vendidos de un cierto tipo de gasolina
